@@ -1,5 +1,4 @@
-# APC1
-Repositório da disciplina APC 1
+
 # Repositório da Disciplina Construção de Backend
 
 Este repositório foi criado com o objetivo de armazenar e organizar os códigos desenvolvidos durante as aulas e atividades práticas da disciplina.
