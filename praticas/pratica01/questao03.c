@@ -4,7 +4,11 @@
 #include <stdio.h>
 
 int main() {
+  const float PI = 3.1416f;
+  int raio = 10;
 
+  float perimetro_da_pizza = 2 * PI * raio;
+  printf ("O perímetro da pizza é %f\n", perimetro_da_pizza);
 
-  
+  return 0;
 }
