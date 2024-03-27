@@ -5,9 +5,11 @@
 
 int main() {
   const float PI = 3.1416f;
-  int raio = 10;
+  int raio;
+  int deu_certo = printf("Informe o raio:");  
+  scanf ("%i", &raio);
 
-  float perimetro_da_pizza = 2 * PI * raio;
+  float perimetro_da_pizza = (2 * PI * raio);
   printf ("O perímetro da pizza é %f\n", perimetro_da_pizza);
 
   return 0;

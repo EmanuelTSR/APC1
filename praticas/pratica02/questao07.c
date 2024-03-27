@@ -14,9 +14,8 @@ int main() {
   float valor_inss = salario_bruto * INSS;
   float valor_liquido = salario_bruto - valor_ir - valor_inss;
 
-  printf("\x1b[40m \x1b[33m--------------------------------\x1b[0m\n");
-  printf("\x1b[40m \x1b[33m  C O N T R A   C H E Q U E     \x1b[0m\n");
-  printf("\x1b[40m \x1b[33m--------------------------------\x1b[0m\n");
+  printf("\x1b[40m \x1b[33m----------da R A   C H E Q U E     \x1b[0m\n");
+  printf("\x1b[40m \x1b[33m-----s---------------------------\x1b[0m\n");
   printf("Salario bruto...: \x1b[32m%14.2f\x1b[0m\n", salario_bruto);
   printf("Imposto de Renda: \x1b[31m%14.2f\x1b[0m\n", valor_ir);
   printf("Imposto INSS....: \x1b[31m%14.2f\x1b[0m\n", valor_inss);
