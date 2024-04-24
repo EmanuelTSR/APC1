@@ -3,9 +3,17 @@
 #include <math.h>
 
 int main(){
-  float altura;
+  float angulo;
   float distancia;
-  
+  const float PI = 3.1416;
 
+  printf("Qual a distancia percorrida pelo avião? ");
+  int deu_certo = scanf("%f", &distancia);
+
+  printf("Qual o angulo de inclinação do avião? ");
+  deu_certo = scanf("%f", &angulo);
+
+  float altura = sin(angulo * PI / 180) * distancia;
+  printf("A altura do avião é : %f\n", altura);
   return 0;
 }
